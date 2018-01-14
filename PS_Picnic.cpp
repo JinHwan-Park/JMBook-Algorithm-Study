@@ -1,7 +1,7 @@
-/***************************************
-¹®Á¦ : ¼ÒÇ³ (¹®Á¦ ID:PICNIC. ³­ÀÌµµ:ÇÏ)
-Á¾¸¸ºÏ CH 06. ¹«½ÄÇÏ°ÔÇ®±â 155pg
-****************************************/
+/****************************************
+ë¬¸ì œ : ì†Œí’ (ë¬¸ì œ ID:PICNIC. ë‚œì´ë„:í•˜)
+ì¢…ë§Œë¶ CH 06. ë¬´ì‹í•˜ê²Œí’€ê¸° 155pg
+*****************************************/
 
 #include <iostream>
 #include <vector>
@@ -39,7 +39,7 @@ int main() {
 
 	cin >> count;
 	numofPairs.assign(count, 0);
-	areFriends.assign(10, vector<bool>(10, false)); // areFriends º¤ÅÍ false·Î ÃÊ±âÈ­
+	areFriends.assign(10, vector<bool>(10, false)); // areFriends ë²¡í„° falseë¡œ ì´ˆê¸°í™”
 
 	for (int i = 0; i < count; i++) {
 		cin >> n >> m;
